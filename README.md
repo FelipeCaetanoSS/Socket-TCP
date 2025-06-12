@@ -1,6 +1,33 @@
 # Socket
 
-Projeto com scripts `cliente.py` e `servidor.py` para comunicação via sockets.
+💬 Chat TCP com Python (Cliente/Servidor)
+
+Este projeto implementa uma aplicação de **chat em rede** utilizando **sockets TCP** e **multithreading** em Python. Ele permite que múltiplos clientes se conectem a um servidor central e troquem mensagens em tempo real.
+
+## 📁 Arquivos
+
+- `servidor.py`: Código do servidor responsável por aceitar conexões e redirecionar mensagens entre os clientes.
+- `cliente.py`: Código do cliente, responsável por se conectar ao servidor e enviar/receber mensagens.
+
+---
+
+## 🔧 Requisitos
+
+- Python 3.x
+- Ambiente de rede (mesma LAN ou IP público com redirecionamento de porta)
+- Bibliotecas padrão:
+  - `socket`
+  - `threading`
+
+### 📦 Como importar as bibliotecas no seu código
+
+Para usá-las, basta importar assim:
+
+```python
+import socket
+import threading
+
+---
 
 ## Como gerar o arquivo `.exe`
 
