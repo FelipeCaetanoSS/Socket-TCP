@@ -26,8 +26,8 @@ Para usá-las, basta importar assim:
 ```python
 import socket
 import threading
+```
 
----
 
 ## Como gerar o arquivo `.exe`
 
